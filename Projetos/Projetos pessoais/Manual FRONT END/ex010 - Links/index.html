@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalhando com links</title>
+</head>
+<body>
+        <h1>Usando links externos</h1>
+        <p><a href="https://www.google.com.br/" target="_blank" rel="external"></a>Para criar um link você usa a <b>tag A</b> de âncora para criar algum link tanto <b>INTERNO</b> quanto <b>EXTERNO</b></p>
+        <p>Não <strong>ESQUECER DO HTTPS</strong> para fazer que o link funcione</p>
+        <p>A tag<strong> (target="_blank" rel="external"</strong>) usada sempre antes de fechar o >, serve para abrir o link em uma nova aba, não fazendo sobreescrever no seu site para não perder o usuário!</p>
+        <h1>Usando link internos</h1>
+        <p>Para avançar para a 
+        <a href="pag002.html" rel="next" target="_self">próxima página</a>, usamos o envelopamento da palavra que queira deixar como link e criamos um link de âncora. Depois escolhemos a página em questão (detalhe: a página tem que estar dentro da própria pasta do projeto) CTRL + espaço e escolher a página!. Depois devemos <strong>OBRIGATÓRIAMENTE</strong> criar um "rel" para navegar entre as páginas  <strong>INTERNAS</strong> com as palavras (next = próxima) e (prev = anterior)</p>
+        <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="noticias/pag003.html" rel="next" target="_self">terceira página.</a></p>
+        <h1>Criando link para download</h1>
+        <h4>Exemplo:</h4>
+        <ul>
+                <li><a href="livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/pdf">Baixar o link em PDF</a></li>
+                <li><a href="livro/10 - Ligações em toda parte.rar" download="10 - Ligações em toda parte.rar" type="application/rar">Baixar o link em .rar</a></li>
+        </ul>
+        <p>Para criamos um link de download primeiramente devemos criar um link de âncora e no HREF colocar onde se encontra o arquivo e em seguida criar uma tag <strong>download="onde se encontra o arquivo/nome do arquivo e o nome da extensão"</strong> e logo em seguida usar o <strong>type="application + verificar no <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">site</a> a extensão correta "</strong></p>
+</body>
+</html>
