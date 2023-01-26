@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-        h1{
-            font-family: 'Roboto', sans-serif; 
+        @font-face {
+            font-family:letra;
+            src: url(midias/letra.otf) format ('opentype'), url ('midias/letra.ttf') format ('truetype');
         }
         body{
             font-family: 'Arial', Helvetica, sans-serif;
             font-size: 16px;  
         } 
+        h3{
+            font-family: letra;
+        }
     </style>
 </head>
 <body>
@@ -55,7 +58,8 @@
         <p>Para adicionarmos uma fonte, devemos primeiro importar ela para o nosso código.</p>
         <p>Exemplo:<br><img src="imagens/importar fontes.png" alt="Importanto fonte do site google fonts"></p>
         <p>Alguns exemplo de fontes diferenciadas seria também no <a href="https://fonts.google.com/">Google fonts</a>. Para cada fonte que inseriamos, devemos usar um @import no começo do style</p>
-
-
+    <h3>Adicionando fontes externas local</h3>
+        <p>Para adicionarmos uma fonte externa, devemos baixar a fonte e criar um <b>font-face</b> na página de estilo do css. Irá ficar da seguinte maneira:<br>
+        <img src="imagens/font-face.png" alt="Exemplo de fonte baixada"></p>
 </body>
 </html>
