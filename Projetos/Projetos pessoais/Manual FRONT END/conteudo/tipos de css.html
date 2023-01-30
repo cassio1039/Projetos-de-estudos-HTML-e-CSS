@@ -8,31 +8,43 @@
         <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color: aquamarine;">
-        <h1 style="color: purple;">Tipos de CSS</h1>
-        <h2>CSS In-line</h2>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Podemos colocar estilos personalizados na mesma linha do código HTML, porém essa prática não é recomendada. Assim dificultando a manutenção do site para o programador e dificilmente será usada. Para manter boas práticas de código, devemos usar um estilo próprio de folha CSS.</p>
-        <p>Exemplo: </p>
-        <img src="imagens/CSS inline.png" alt="CSS na própria linha">
-        <h2>CSS Interno</h2>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dentro da tag <b>HEAD</b>, iremos criar uma tag chamada <b style="color: red;">"STYLE"</b> e tudo que estiver dentro dessa tag será considerada CSS, assim separando o contéudo do estilo. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A grande desvantagem de criar um style dentro da página html é que se eu tiver mais que uma página, precisarei estar fazendo a mesma coisa em todas as páginas, para manter boas práticas de código, devemos usar um estilo próprio de folha CSS. </p>
-        <p>Exemplo: </p>
-        <img src="imagens/CSS interno.png" alt="usando css dentro da própria folha de html">
-        <h2>CSS Externo</h2>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para criarmos uma folha externa de CSS, devemos utilizar o comando <b>Link:css</b>, fazendo com que crie uma folha própria de estilos e toda página de html que estiver linkado a folha de css, tornará para si os estilos personalizados dentro da folha de css.  </p>
-        <p>Exemplo:</p>
-        <img src="imagens/CSS externo.png" alt="Criando link externo de css">
-        <h2>Hierarquia de comandos de estilos</h2>
-        <p>Existe uma hierarquia de estilos feitos pelo CSS, sendo:</p>
-        <ol>
-                <li><b>CSS In-line</b>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O CSS Inline terá prioridade máxima nos comandos de estilos, porque você está mudando o estilo daquela <b>"linha"</b>.</p>
-                </li>
-                <li><b>CSS Interno</b>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;Na hierarquia de estilos, o css interno dentro da folha HTML irá sobrepor a folha de css externa porque você está mudando o estilo daquela <b>folha</b>.</p>
-                </li>
-                <li><b>CSS Externo</b>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;O CSS Externo terá baixa prioridade na linha de comando, porque você está usando uma <b>"folha padrozinada"</b> para todas suas páginas html.</p>
-                </li>
-</ol>
+        <main>
+                <header>
+                        <h1 style="color: purple;">Tipos de CSS</h1>
+                </header>
+                <section>
+                        <h2>CSS In-line</h2>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Podemos colocar estilos personalizados na mesma linha do código HTML, porém essa prática não é recomendada. Assim dificultando a manutenção do site para o programador e dificilmente será usada. Para manter boas práticas de código, devemos usar um estilo próprio de folha CSS.</p>
+                        <p>Exemplo: </p>
+                        <img src="imagens/CSS inline.png" alt="CSS na própria linha">
+                </section>
+                <section>
+                        <h2>CSS Interno</h2>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dentro da tag <b>HEAD</b>, iremos criar uma tag chamada <b style="color: red;">"STYLE"</b> e tudo que estiver dentro dessa tag será considerada CSS, assim separando o contéudo do estilo. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A grande desvantagem de criar um style dentro da página html é que se eu tiver mais que uma página, precisarei estar fazendo a mesma coisa em todas as páginas, para manter boas práticas de código, devemos usar um estilo próprio de folha CSS. </p>
+                        <p>Exemplo: </p>
+                        <img src="imagens/CSS interno.png" alt="usando css dentro da própria folha de html">
+                </section>
+                <section>
+                        <h2>CSS Externo</h2>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para criarmos uma folha externa de CSS, devemos utilizar o comando <b>Link:css</b>, fazendo com que crie uma folha própria de estilos e toda página de html que estiver linkado a folha de css, tornará para si os estilos personalizados dentro da folha de css.  </p>
+                        <p>Exemplo:</p>
+                        <img src="imagens/CSS externo.png" alt="Criando link externo de css">
+                </section>
+                <section>
+                        <h2>Hierarquia de comandos de estilos</h2>
+                        <p>Existe uma hierarquia de estilos feitos pelo CSS, sendo:</p>
+                        <ol>
+                                <li><b>CSS In-line</b>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O CSS Inline terá prioridade máxima nos comandos de estilos, porque você está mudando o estilo daquela <b>"linha"</b>.</p>
+                                </li>
+                                <li><b>CSS Interno</b>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Na hierarquia de estilos, o css interno dentro da folha HTML irá sobrepor a folha de css externa porque você está mudando o estilo daquela <b>folha</b>.</p>
+                                </li>
+                                <li><b>CSS Externo</b>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;O CSS Externo terá baixa prioridade na linha de comando, porque você está usando uma <b>"folha padrozinada"</b> para todas suas páginas html.</p>
+                                </li>
+                        </ol>
+                </section>
+        </main>
 </body>
 </html>

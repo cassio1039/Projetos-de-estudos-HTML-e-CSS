@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,35 +8,57 @@
         <link rel="stylesheet" href="style.css">
         <title>Outras formatações</title>
 </head>
+
 <body>
-        <h1>Outras formatações</h1>
-        <h2>Código-fonte</h2>
-        <p>O comando <code>document.get&ElementById</code> é escrito em linguagem JavaScript. E para colocarmos alguma parte de alguma linguagem dentro do html, devemos usar criar com o comando <b>&lt;code&gt;&lt;/code&gt;</b>. O comando <b>&lt;pre&gt;&lt;/pre&gt;</b> serve para alinhar o código da maneira que você colocar no editor.</p>
-        <p>Exemplo:</p>
-        <pre>
-                <code>
-num = int(input("Digite um número:"))
-if num %2==0:
-        print(f"O Número {num} é PAR")
-else:
-        print(f"O número {num} é IMPAR")
-print("Fim do programa")
-                </code>
-        </pre>
-        <img src="imagens/código.png" alt="Colando e editando a maneira que se vê um código no editr de html">
-        <h2>Citações simples</h2>
-        <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
-        <p>As citações simples "aspas" são feitas com a tag <b>&lt;q&gt;&lt;/q&gt;</b></p>
-        <h2>Citações completas</h2>
-        <p></p>
-        <h2>Abreviações</h2>
-        <p>Para criar <abbr title="HyperTextMarkup Language">abreviações</abbr> usamos a tag <b>&lt;abbr&gt;&lt;/abbr&gt;</b> e podemos criar uma <abbr title="Cascading Style Sheets">sub-legends</abbr> para esta abreviação</p>
-        <p>Exemplo:</p>
-        <img src="imagens/abreviação.png" alt="Exemplo criado para mostrar como se faz uma abraviação">
-        <h2>Texto Invertido</h2>
-        <p>Para criamos textos invertidos, utilizamos a tag <b>&lt;bdo&gt;&lt;/bdo&gt;</b> e em seguida escolhemos como o texto irá se comportar </p>
-        <p>Exemplo: </p>
-        <p><bdo dir="rtl">Estou a aprendendo a criar coisas em HTML</bdo></p>
-        <img src="imagens/texto invertido.png" alt="Exemplo criado para mostrar como se cria um texto invertido">
+        <main>
+                <header>
+                        <h1>Outras formatações</h1>
+                </header>
+                <section>
+                        <h2>Código-fonte</h2>
+                        <p>O comando <code>document.get&ElementById</code> é escrito em linguagem JavaScript. E para
+                                colocarmos alguma parte de alguma linguagem dentro do html, devemos usar criar com o
+                                comando <b>&lt;code&gt;&lt;/code&gt;</b>. O comando <b>&lt;pre&gt;&lt;/pre&gt;</b> serve
+                                para alinhar o código da maneira que você colocar no editor.</p>
+                        <p>Exemplo:</p>
+                        <pre>
+                                <code>
+                        num = int(input("Digite um número:"))
+                        if num %2==0:
+                        print(f"O Número {num} é PAR")
+                        else:
+                        print(f"O número {num} é IMPAR")
+                        print("Fim do programa")
+                                </code>
+                        </pre>
+                        <img src="imagens/código.png"
+                                alt="Colando e editando a maneira que se vê um código no editr de html">
+                </section>
+                <section>
+                        <h2>Citações simples</h2>
+                        <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+                        <p>As citações simples "aspas" são feitas com a tag <b>&lt;q&gt;&lt;/q&gt;</b></p>
+                </section>
+                <section>
+                        <h2>Citações completas</h2>
+                        <p></p>
+                        <h2>Abreviações</h2>
+                        <p>Para criar <abbr title="HyperTextMarkup Language">abreviações</abbr> usamos a tag
+                                <b>&lt;abbr&gt;&lt;/abbr&gt;</b> e podemos criar uma <abbr
+                                        title="Cascading Style Sheets">sub-legends</abbr> para esta abreviação</p>
+                        <p>Exemplo:</p>
+                        <img src="imagens/abreviação.png" alt="Exemplo criado para mostrar como se faz uma abraviação">
+                </section>
+                <section>
+                        <h2>Texto Invertido</h2>
+                        <p>Para criamos textos invertidos, utilizamos a tag <b>&lt;bdo&gt;&lt;/bdo&gt;</b> e em seguida
+                                escolhemos como o texto irá se comportar </p>
+                        <p>Exemplo: </p>
+                        <p><bdo dir="rtl">Estou a aprendendo a criar coisas em HTML</bdo></p>
+                        <img src="imagens/texto invertido.png"
+                                alt="Exemplo criado para mostrar como se cria um texto invertido">
+                </section>
+        </main>
 </body>
+
 </html>

@@ -8,26 +8,31 @@
         <title>Adicionando vídeos HTML5</title>
 </head>
 <body>
-        <div>
-                <h1>Inserindo vídeos nos sites</h1>
-                <p>Parar inserir um vídeo, iremos criar um link usando a tag <b>&lt;video&gt;&lt;/video&gt;</b></p>
-                <p>Para usarmos um vídeo, devemos colocar em diferentes formatos e tamanhos por conta do suporte do navegador ao usuário</p>
-                <p>Para fazermos isso devemos dentro da tag videos, usar a tag source abreviado de src para dizer onde está o arquivo e colocar no type o tipo de arquivo</p>
-                <p>Podemos também colocar um controle de mídia para o usuário, usando a tag "controls" dentro da tag de video </p>
-                <p>Podemos também colocar em loop (ficar repetindo o vídeo assim que acabar) usando a tag loop dentro da tag de vídeo </p>
-                <video width="560" height="315" controls autoplay loop>
-                        <source src="midias/videos.mp4" type="video/mp4">
-                </video>
-        <p><img src="imagens/video.png" alt="Criando exemplo de vídeo"></p>
-                <p>Quando colocamos um vídeo da nossa base de arquivos, estaremos utilizando banda do servidor próprio</p>
-        </div>
-        <div>
-                <h1>Inserindo vídeos do Youtube</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2cdF8Y3J1e4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p>Quando colocamos um vídeo hospedado em outro site, estaremos utilizando banda do servidor do próprio site de hospedagem
-                <br>exemplo: youtube</p>
-        <p>Exemplo:</p>
-        <img src="imagens/video hospedado.png" alt="Criação de exemplo de vídeo hospedado">
-        </div>
+        <main>
+                
+                <header>
+                        <h1>Inserindo vídeos nos sites</h1>
+                </header>
+                <section>
+                        <p>Parar inserir um vídeo, iremos criar um link usando a tag <b>&lt;video&gt;&lt;/video&gt;</b></p>
+                        <p>Para usarmos um vídeo, devemos colocar em diferentes formatos e tamanhos por conta do suporte do navegador ao usuário</p>
+                        <p>Para fazermos isso devemos dentro da tag videos, usar a tag source abreviado de src para dizer onde está o arquivo e colocar no type o tipo de arquivo</p>
+                        <p>Podemos também colocar um controle de mídia para o usuário, usando a tag "controls" dentro da tag de video </p>
+                        <p>Podemos também colocar em loop (ficar repetindo o vídeo assim que acabar) usando a tag loop dentro da tag de vídeo </p>
+                        <video width="560" height="315" controls autoplay loop>
+                                <source src="midias/videos.mp4" type="video/mp4">
+                        </video>
+                        <p><img src="imagens/video.png" alt="Criando exemplo de vídeo"></p>
+                        <p>Quando colocamos um vídeo da nossa base de arquivos, estaremos utilizando banda do servidor próprio</p>
+                </section>
+                <section>
+                        <h1>Inserindo vídeos do Youtube</h1>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2cdF8Y3J1e4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p>Quando colocamos um vídeo hospedado em outro site, estaremos utilizando banda do servidor do próprio site de hospedagem
+                        <br>exemplo: youtube</p>
+                        <p>Exemplo:</p>
+                        <img src="imagens/video hospedado.png" alt="Criação de exemplo de vídeo hospedado">
+                </section>
+        </main>
 </body>
 </html>
