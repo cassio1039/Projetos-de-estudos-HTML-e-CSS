@@ -22,3 +22,42 @@ a:hover {
         font-weight: bold;
         text-decoration: underline;
 }
+.botao1 {
+        background-color: rgb(237, 237, 247);
+        border: 1px solid black;
+        padding: 5px 10px;
+        color: white;
+        text-decoration: none;
+        display:inline-flex;
+        border-radius: 500px;
+        justify-content: space-between;
+        align-items: center;
+        float: left;
+      }
+      
+.botao2 {
+        background-color: rgb(237, 237, 247);
+        border: 1px solid black;
+        padding: 5px 10px;
+        color: white;
+        text-decoration: none;
+        display:inline-flex;
+        border-radius: 500px;
+        justify-content: space-between;
+        align-items: center;
+        float:center;
+        
+      }
+      
+      .botao3 {
+        background-color: rgb(237, 237, 247);
+        border: 1px solid black;
+        padding: 5px 10px;
+        color: white;
+        text-decoration: none;
+        display:inline-flex;
+        border-radius: 500px;
+        justify-content: space-between;
+        align-items: center;
+        float: right;
+      }
