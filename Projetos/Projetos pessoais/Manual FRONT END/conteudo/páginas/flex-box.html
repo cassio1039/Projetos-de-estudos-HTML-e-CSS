@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/reset.css">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="../estilos/style.css">
+        
     <title>Flex-box</title>
 </head>
 <body>
@@ -13,27 +13,55 @@
         <header>
             <h1>Flex-box</h1>
         </header>
-        <p>Para usarmos a flex-box temos algumas opções que podem ser usadas no pai (a div que comanda os itens) e no filho (a div que faz parte da estrutura do pai)</p>
-        <ul>
-                <li><h2>Container = pai:</h2></li>
-                <li>display: flex</li>
-                <li>flex-direction</li>
-                <li>justify-content</li>
-                <li>flex-wrap</li>
-                <li>flex-flow</li>
-                <li>align-items</li>
-                <li>align-content</li>
-                <li>flex item:</li>
-            </ul>
+        <section>
+            <p>Para usarmos a flex-box temos algumas opções que podem ser usadas no pai (a div que comanda os itens) e no filho (a div que faz parte da estrutura do pai)</p>
             <ul>
-                <li><h2>Items = filho:</h2></li>
-                <li>order</li>
-                <li>flex-grow</li>
-                <li>flex-shrink</li>
-                <li>flex-basis</li>
-                <li>flex</li>
-                <li>align-self</li>
-        </ul>
+                    <li><h2>Container = pai:</h2></li>
+                    <li>display: flex</li>
+                    <li>flex-direction</li>
+                    <div>
+                        <li><h4>justify-content</h4></li>
+                        <p>Define o posicionamento pelo eixo X (horizontal(linha deitada)).</p>
+                            <ul>
+                                <li><b>flex-start</b> = Começa na esquerda para direita.</li>
+                                <li><b>flex-end</b> = Começa na direita para esquerda.</li>
+                                <li><b>center</b> = Deixa o conteúdo centralizado.</li>
+                                <li><b>space-between</b> = Distribui os elementos em tamanhos iguais.</li>
+                                <li><b>space around</b> = Coloca um espaço entre os elementos e em volta dos elementos.</li>
+                            </ul>
+                    </div>
+                    <div>
+                        <li><h4>flex-wrap</h4>
+                            <p>Define se os itens devem quebrar ou não a linha.</p></li>
+                            <ul>
+                                <li><b>nowrap</b> = Valor padrão, não permite a quebra de linha.</li>
+                                <li><b>wrap</b> = Quebra a linha assim que um dos flex itens não puder mais ser compactado na linha atual.</li>
+                                <li><b>wrap-reverse</b> = Quebra a linha assim que um dos flex itens não puder mais ser compactado na linha atual e a quebra é na direção contrária, ou seja para a linha acima.</li>
+                            </ul>
+                    </div>
+                    <li>flex-flow</li>
+                    <h4><li>Align-items</li></h4>
+                    <p>Define o posicionamento pelo eixo Y (vertical (linha em pé)).</p>
+                    <ul>
+                        <li><b>flex-start:</b> Começa o posicionamento por cima.</li>
+                        <li><b>flex-end:</b> Começa o posicionamento por baixo.</li>
+                        <li><b>center:</b> Começa o posicionamento pelo centro.</li>
+                        <li><b>stretch:</b> Faz com o que os itens cresçam igualmente.</li>
+                        <li><b>baseline:</b> Alinha os itens de acordo com o tamanho da linha</li>
+                    </ul>
+                    <li>align-content</li>
+                    <li>flex item:</li>
+                </ul>
+                <ul>
+                    <li><h2>Items = filho:</h2></li>
+                    <li>order</li>
+                    <li>flex-grow</li>
+                    <li>flex-shrink</li>
+                    <li>flex-basis</li>
+                    <li>flex</li>
+                    <li>align-self</li>
+            </ul>
+        </section>
     </main>
 </body>
 </html>

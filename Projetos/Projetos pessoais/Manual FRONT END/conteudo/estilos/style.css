@@ -1,36 +1,16 @@
 @charset "UTF-8";
 
 :root {
-        --cor01: #ffffff9f;
-        --cor02: #52ABE3;
-        --cor03: #2989e2;
+        --corfundo:#181818;
 }
 body {
         font-family: Arial, Helvetica, sans-serif;
+        /* background-color: var(--corfundo); */
         
-}
-main {
-        background-color: var(--cor01);
-        width: auto;
-        height: 100vh;
-        border-radius: 30px;
-        margin: 40px 10px;
-}
-
-h1 {
-        text-align: center;
-}
-
-h2,h3,h4,p,img,a,ul,ol{
-        margin-left: 70px;
-}
-a {
-        color: rgb(70, 100, 199);
-        text-decoration: none;
 }
 
 a:visited {
-        color: rgb(140, 69, 207);
+        color: rgb(238, 225, 250);
         text-decoration: underline;
 }
 
