@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/reset.css">
+        <link rel="stylesheet" href="../estilos/style.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Página de formulários</h1>
+    <h2>Criando formulários</h1>
+    <p>Para criar um formulários, utilizamos a tag &lt;form&gt; &lt;/form&gt;, assim criando uma div semânticamente correta de um formulário. </p>
+    <p>Para criarmos a caixa de digitação escrevemos o input, temos diversos input sendo eles de textos, números, senhas e ai vai da nossa necessidade. </p>
+    <p>Exemplo: <br> <img src="../imagens/input-formulário.png" alt=""></p>
+    <p>Para desativarmos o autocomplete de preenchimento, devemos colocar ao lado da tag form o autocomplete = off.</p>
+
+    <h2>Enviando dados de formulário</h2>
+    <p>Para enviarmos os dados do formulário, ao lado da tag form, devemos colocar o <b>"action" e dentro desse action colocar a página de linguagem</b>.</p>
+    <p>Devemos usar o label para fazer a ligação entre os elementos da página e do formulário</p>
+    <p>Exemplo: <br> <img src="../imagens/action-formulário.png" alt=""></p>
+    
+    <h2>Métodos</h2>
+    <p>Existem dois métodos para envios de formulários, por padrão ele vem no método GET</p>
+    <p><b>GET:</b> Faz com que apareça o que foi buscado na barra de endereço; pode ser usado para quando não há solicitação de dados sensíveis podendo ser enviados somente até 3 mil letras.</p>
+    <p><b>POST:</b> Faz com que seja oculto o que foi buscado na barra de endereço, porém não é totalmente seguro, usado para dados sensíveis.</p>
+    <h2>Atributos</h2>
+    <p>os atributos são escolhidos pelo comando <b>"type"</b> depois do input, pode ser do tipo texto, senha, números e etc</p>
+    <p>Para tornar o preenchimento obrigatório, utilizamos a tag <b>"required"</b> no final do campo.</p>
+    <p><b>Placeholder:</b> Texto que irá mostrar a caixa vazia para o usuário o que ele deve digitar</p>
+    <p><b>minlength:</b> Mínimo de letras</p>
+    <p><b>maxlenght:</b> Máximo de letras</p>
+    <h2>Fieldset</h2>
+    <p>Cria uma divisória semântica para opções em formulários criando um separador</p>
+    <h2>Check-Box</h2>
+    <p>Para fazermos uma caixa de seleção com o <b>input:radio</b> podemos fazer uma caixa de seleção que só pode escolher uma opção e não as duas, pra isso devemos usar <b>o mesmo nome para ambas as opções</b></p>
+    <p>Se quiser uma opção já marcada, podemos deixar ativada a opção checked</p>
+    <h2>Seleção de cores</h2>
+    <p>Para criarmos uma seleção de cores que o usuário escolha, devemos utilizar o input do tipo <b>color</b> <br>Exemplo: <br> <img src="../imagens/input-color.png" alt=""></p>
+    <h2>Barra de satisfação</h2>
+    <p>Para usarmos a barra de satisfação, devemos utilizar um input do tipo <b>range</b>, e para colocarmos delimitação usamos o <b>min e max</b> e já preenchido utilizamos o "value"</p>
+    <p>Exemplo: <br> <img src="../imagens/input-range.png" alt=""></p>
+    <h2>Enviando arquivo</h2>
+    <p>Para criamos uma seletora de enviar arquivo, criamos o input do tipo <b>file</b> e devemos colocar como POST</p>
+    <p>Exemplo: <br> <img src="../imagens/input-file.png" alt=""></p>
+</body>
+</html>

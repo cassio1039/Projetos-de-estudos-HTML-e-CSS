@@ -27,12 +27,18 @@ header {
 .html > h3 {
         margin: 20px 0px;
 }
+.html > ul > ol > li {       
+        margin-left: 15px;
+}
 
 .css {
         margin: 50px 30px;
 }
 .css > h3 {
         margin: 20px 0px;
+}
+.css > ul > ol > li {       
+        margin-left: 15px;
 }
 a {
         color: var(--links);
@@ -67,10 +73,17 @@ footer{
         height: 30vh;
         height: 30px;
         width: 150px;
+        font-weight: bolder;
         text-align: center;
         border-radius: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
-
 }
+
+.botões :hover {
+        border: 2px solid rgb(0, 0, 0);
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px black;
+        transition: transform 0.1s, border .3s;
+    }
